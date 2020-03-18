@@ -1,0 +1,32 @@
+{
+  "name": "reactwasm4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-syntax-top-level-await": "^7.8.3",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "git+https://github.com/babel/babel-loader.git",
+    "css-loader": "^3.4.2",
+    "react-svg-loader": "^3.0.3",
+    "sass-loader": "^8.0.2",
+    "url-loader": "^4.0.0",
+    "webpack": "^5.0.0-beta.14",
+    "webpack-cli": "^4.0.0-beta.8"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.2.5",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-redux": "^7.2.0"
+  }
+}
